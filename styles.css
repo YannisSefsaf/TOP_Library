@@ -1,0 +1,100 @@
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.container {
+  z-index: 2;
+}
+
+.closeMenu {
+  z-index: 1;
+  cursor: pointer;
+}
+
+.addbookform {
+  margin-left: calc(50% - 200px);
+  margin-top: 20%;
+  width: 400px;
+}
+
+@media (min-width: 600px) {
+  .addbookform {
+    margin-left: calc(50% - 250px);
+    margin-top: 5%;
+    width: 500px;
+  }
+}
+
+.form-switch .form-check-input:checked {
+  background-position: 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%22-4 -4 8 8%22%3E%3Ccircle r=%223%22 fill=%22%23fff%22/%3E%3C/svg%3E");
+}
+
+.form-check-input:checked[type="checkbox"] {
+  background-image: url("data:image/svg + xml,%3csvgxmlns="http://www.w3.org/2000/svg" viewBox="002020" %3e%3cpathfill="none" stroke="%23fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M610l33l6-6"/%3e%3c/svg%3e");
+}
+
+.form-switch .form-check-input {
+  margin-top: 0.1rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%22-4 -4 8 8%22%3E%3Ccircle r=%223%22 fill=%22%23fff%22/%3E%3C/svg%3E");
+  background-position: 0;
+  transition: background-position 0.15s ease-in-out;
+}
+.form-check-input:checked {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+.shadow-sm {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.align-top {
+  vertical-align: top;
+}
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+.bg-contain {
+  background-size: contain;
+}
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+.appearance-none {
+  appearance: none;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.w-9 {
+  width: 2.25rem;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.w-15 {
+  width: 4rem;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+.ml-05 {
+  margin-left: 0.5rem;
+}
+.float-left {
+  float: left;
+}
